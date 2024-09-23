@@ -1,5 +1,5 @@
 # to-gguf-bat
-Convert safetensors to gguf q4_0 - q8_0 on windows
+Convert safetensors to GGUF q4_0, q4_1, q5_0, q5_1, q8_0 on Windows
 
 
 How to use
