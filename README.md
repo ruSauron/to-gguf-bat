@@ -4,8 +4,11 @@ Convert safetensors to GGUF q4_0, q4_1, q5_0, q5_1, q8_0 on Windows
 Conversion will be done on the CPU in a single thread, takes 5-20 minutes.
 The model will be fully loaded in RAM, you need at least 24GB of RAM for Flux models.
 
+Usage (drag and drop model to this bat file):
 
-How to use
+to-gguf-bat "c:\stable-diffusion\model.safetensors"
+
+Getting started
 1) Go to
 https://github.com/leejet/stable-diffusion.cpp/releases
 
