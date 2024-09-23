@@ -1,6 +1,8 @@
 # to-gguf-bat
 Convert safetensors to GGUF q4_0, q4_1, q5_0, q5_1, q8_0 on Windows
 
+Conversion is done on the CPU in a single thread, takes 5-20 minutes, and requires  at least 32 GB RAM (preferably 48-64 GB) for Flux models.
+
 
 How to use
 1) Go to
@@ -18,6 +20,7 @@ All the work is done by stable-diffusion.cpp:
 sd.exe -M convert -m from.safetensors -o to.q4_1.gguf --type q4_1
 
 ---
+Конвертирование происходит на процессоре в один поток, занимает 5-20 минут и требует не менее 32 Гб памяти (желательно 48-64 Гб) для моделей Flux
 
 Как пользоваться
 1) Перейдите по адресу
