@@ -10,7 +10,7 @@ https://github.com/leejet/stable-diffusion.cpp/releases
 
 3) Unzip it to any folder.
 
-4) Put in the folder where you unpacked the sd-master- ... archive.  to_GGUF.bat file
+4) Put in the folder where you unpacked the sd-master- ... .zip this "to_GGUF.bat" file
 
 5) Drag and drop the .safetensors model you want to convert onto to_GGUF.bat.
  
