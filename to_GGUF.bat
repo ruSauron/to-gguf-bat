@@ -2,11 +2,11 @@
 :menu
 cls
 echo Please select the type of conversion:
-echo 1. q4_0
-echo 2. q4_1
-echo 3. q5_0
-echo 4. q5_1
-echo 5. q8_0
+echo 1. q4_0 (~6.5 Gb for Flux)
+echo 2. q4_1 (~7.5 Gb for Flux)
+echo 3. q5_0 (~8 Gb for Flux)
+echo 4. q5_1 (~8.5 Gb for Flux)
+echo 5. q8_0 (~12 Gb for Flux)
 
 choice /c 12345 /n /m "Enter your choice: "
 
