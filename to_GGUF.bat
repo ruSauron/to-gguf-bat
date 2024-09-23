@@ -43,4 +43,5 @@ set /a elapsed=end-start
 set /a hh=elapsed/(60*60*100), rest=elapsed%%(60*60*100), mm=rest/(60*100), rest%%=60*100, ss=rest/100, cc=rest%%100
 
 echo Conversion completed in %hh% hour(s) %mm% minute(s) %ss%.%cc% second(s).
+title Done %~n1.%type%
 pause
