@@ -6,7 +6,7 @@ The model will be fully loaded in RAM, you need at least 24GB of RAM for Flux mo
 
 Usage (drag and drop model to this bat file):
 
-to-gguf-bat "c:\stable-diffusion\model.safetensors"
+to-gguf.bat "c:\stable-diffusion\model.safetensors"
 
 Getting started
 1) Go to
